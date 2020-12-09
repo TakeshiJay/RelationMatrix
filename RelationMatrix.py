@@ -35,4 +35,35 @@ class RelationMatrix:
             return list(self.rows[j-k][j] for j in range(min(r+k,c)))
         if k > c - 1 or k < 1 - r:
             raise IndexError("List index out of range")
+    def isReflexive(self):
+        #todo
+        pass
+    
+    def isSymmetric(self):
+        #todo
+        pass
+    
+    def isAsymmetric(self):
+        #todo
+        pass
+    
+    def isTransitive(self):
+        #todo
+        pass
+    
+    def isEqRelation(self):
+        #todo
+        pass
+    
+    def setEntry(self, i, j, b):
+        #todo
+        pass
+    
+    def deleteRow(i):
+        #todo
+        pass 
+    
+    def deleteCol(j):
+        #todo
+        pass
     
